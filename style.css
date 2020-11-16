@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+
+.container {
+    width: 100%;
+}
+
+
+
+#logo {
+    display: block;
+    padding: 2rem;
+    width: 180px;
+}
+
+
+
+#hero-image {
+    width: 100%;
+}
+
+
+.container h1 {
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.container h1 em,
+.container p {
+    color: hsl(0, 36%, 70%);
+}
+
+.container p {
+    padding: 1rem;
+    text-align: center;
+    /*    letter-spacing: 1px;*/
+    line-height: 1.5;
+}
+
+#form {
+    margin: auto;
+    width: 80%;
+    position: relative;
+}
+
+#form input {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(135deg, #CE9797, #F96262);
+    border: none;
+    position: absolute;
+    top: 0px;
+    right: -11px;
+    width: 80px;
+    height: 50px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 1px 1px 10px;
+}
+
+#form button span > img {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+}
+
+form img#icon-error {
+    position: absolute;
+    top: 13px;
+    right: 80px;
+    display: none;
+}
+
+#show-error {
+    margin-bottom: 1rem;
+    color: red;
+    font-size: .8rem;
+    text-align: left;
+    margin-top: -1rem;
+}
+
+#desktop-hero {
+    display: none;
+}
